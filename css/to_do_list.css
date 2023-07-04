@@ -67,7 +67,7 @@ body{
 }
 
 .list{
-    display: flex;
+    display: none;
     justify-content: center;
     margin-top: 10px;
     font-family: 'GmarketSansMedium';
@@ -75,7 +75,6 @@ body{
 
 .add_list li{
     width: 500px;
-    height: 50px;
     display: flex;
     list-style: none;
     background-color: white;
@@ -85,9 +84,9 @@ body{
     text-indent: 30px;
 }
 
-.delate{
+.delete{
     width: 500px;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: right;
 }
